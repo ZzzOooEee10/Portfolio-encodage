@@ -1,1 +1,163 @@
+\documentclass[10pt,a4paper,withhyper]{altacv}
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+\usepackage{paracol}
+\iftutex
+  \setmainfont{Roboto Slab}
+  \setsansfont{Lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\else
+  \usepackage[rm]{roboto}
+  \usepackage[defaultsans]{lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\fi
 
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{PastelRed}{HTML}{D8A7C7}
+\definecolor{GoldenEarth}{HTML}{E7D192}
+\colorlet{name}{black}
+\colorlet{tagline}{PastelRed}
+\colorlet{heading}{black}
+\colorlet{headingrule}{GoldenEarth}
+\colorlet{subheading}{PastelRed}
+\colorlet{accent}{PastelRed}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+\renewcommand{\personalinfofont}{\footnotesize}
+\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+\renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
+\renewcommand{\cvRatingMarker}{\faCircle}
+
+\input{pubs-num}
+
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Zoé ROCHETTE}
+\tagline{Étudiante en Master Humanités et Éditions Numériques
+
+En recherche d'un stage de fin d'études sur la période mars - juin 2027}
+
+\personalinfo{
+  \email{zoe.rochette@univ-rouen.fr}
+  \phone{07.85.57.68.83}
+  \mailaddress{5 Domaine du Rouffard, 27310 Caumont}
+  \linkedin{Zoé Rochette}
+  \github{ZzzOooEee10}}
+
+\makecvheader
+
+\columnratio{0.6}
+
+\begin{paracol}{2}
+\cvsection{Expériences}
+
+\cvevent{Juré littéraire du prix Étonnants Voyageurs}{Journal Ouest-France}{Mars-Juin 2026}{Rennes et Saint-Malo, 35}
+\begin{itemize}
+\item Lecture et analyse critique d'ouvrages
+\item Débats, échanges et délibérations avec le jury
+\end{itemize}
+
+\divider
+
+\cvevent{Découverte du métier de bibliothécaire}{Médiathèques stéphanaises}{Mars 2025}{Saint-Étienne-du-Rouvray, 76}
+\begin{itemize}
+\item Classement et gestion des collections
+\item Utilisation de logiciels professionnels
+\item Conception d'animations culturelles
+\end{itemize}
+
+\divider
+
+\cvevent{Réceptionniste en hôtellerie}{Hôtel Mercure Centre Champ de Mars}{Étés 2023 et 2024}{Rouen, 76}
+\begin{itemize}
+\item Relation client
+\item Communication multilingue
+\end{itemize}
+
+\divider
+
+\cvevent{Agent de production}{Bulle de Linge}{2022-Aujourd'hui}{Bourg-Achard, 27}
+
+\medskip
+
+\cvsection{Projets}
+
+\cvevent{Transcription, édition et encodage d'un manuscrit latin}{Projet Tacitus On Line - Collaboration Rouen/Sorbonne}{}{}
+
+\divider
+
+\cvevent{Édition collaborative critique d'un manuscrit de Flaubert}{Projet académique publié sur le site institutionnel Flaubert}{}{}
+
+\medskip
+
+\cvsection{Centres d'intérêts}
+
+\wheelchart{1.5cm}{0.5cm}{%
+  6/8em/accent!60/{Monde artistique : cinémas, musées, expositions, concerts},
+  3/8em/accent!30/{Informatique},
+  8/8em/accent!70/{Lecture},
+  2/10em/accent!20/{Voyages},
+  5/6em/accent!50/{Rédaction et conception graphique}}
+
+
+\switchcolumn
+
+\cvsection{Réussites}
+
+\cvachievement{\faTrophy}{Certification, Sorbonne}{Histoire de l'Art, Art Explora Academy, 2026}
+
+\divider
+
+\cvachievement{\faTrophy}{Premier prix d'écriture}{Concours poésies et nouvelles, Association Mieux Vivre, 2022}
+
+\divider
+
+\cvachievement{\faTrophy}{Premier prix de dictée}{Concours de dictée, La Londe, 2022}
+
+\cvsection{Compétences}
+
+\cvtag{Rédaction}
+\cvtag{Perfectionnisme}\\
+\cvtag{Analyse \& rigueur}
+
+\divider\smallskip
+
+\cvtag{Curiosité}
+\cvtag{Créativité}\\
+\cvtag{Sens de l'observation}
+
+\cvsection{Langues}
+
+\cvskill{Français}{5}
+\divider
+
+\cvskill{Anglais, B2 CLES}{3.5}
+\divider
+
+\cvskill{HTML, Markdown, LaTeX}{3} 
+
+\medskip
+
+\cvsection{Formations}
+
+\cvevent{Master Humanités et Éditions Numériques}{Université de Mont-Saint-Aignan}{2025 - 2027}{}
+
+\divider
+
+\cvevent{Licence de Lettres Modernes}{Université de Mont-Saint-Aignan}{2023 - 2025}{}
+
+\divider
+
+\cvevent{CPGE Lettres, classes préparatoires}{Lycée Jeanne d'Arc de Rouen}{2022 - 2023}{}
+
+\divider
+
+\cvevent{Baccalauréat général, mention Bien}{Lycée privé catholique Fénelon d'Elbeuf}{2022 - 2023}{}
+
+\end{paracol}
+\end{document}
