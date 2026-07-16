@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="grimm"> 
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+          <title>Acte de l'administration royale (Paris), 12 mai 1375</title>
+            <author>Administration royale de Paris</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher><orgName>Master Humanités numériques</orgName></publisher>
+            <publisher><persName>Zoé Rochette</persName></publisher>
+            <date when="2026">2026</date>
+            <availability status="restricted" n="cc-by">
+               <licence target="https://creativecommons.org/licenses/by/4.0"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <ref target="http://theleme.enc.sorbonne.fr/dossiers/transcription73.php"/>
+               <title>1375, 12 mai. Acte de l'administration royale (Paris) ; Des paysans récalcitrants : rapport d'un sergent du Châtelet aux requêtes du Palais</title>
+               <author>
+                   <persName>
+                   Sergent du Châtelet
+                   </persName>
+                </author>
+               <pubPlace ref="geonames:2988506">Paris</pubPlace>
+               <date when="1375-05-12">12 mai 1375</date>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <settlement ref="geonames:29885506">Paris</settlement>
+                  <institution>Archives nationales</institution>
+                  <idno type="cote">S 952, n°2</idno>
+               </msIdentifier>
+               <physDesc>
+                 <p>Encodage réalisé à partir d'un fac-similé (AF 316, lithographie).</p>
+                </physDesc>
+<!--J'ai tenté de présenter l'origine du fac-similé-->
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+	  <encodingDesc>
+         <projectDesc>
+            <p>Devoir de fin de semestre mené dans le cadre du Master Humanités Numériques. Encodage TEI basé sur une édition numérisée accessible via Theleme.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>L'encodage suit les recommandations de la TEI P5.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+        <langUsage>
+           <language ident="fra">Document en ancien français.</language>
+        </langUsage>
+        <textClass>
+           <keywords>
+              <term type="genre">Acte administratif</term>
+           </keywords>
+           </textClass>
+     </profileDesc>
+     
+     <revisionDesc>
+        <change status="corrected" when="2026-05-16" who="ZR"/>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+      <div>
+        <head>N°316</head>
+
+<p>
+<lb n="1"/><hi rend="lettrine">A</hi> mes tres chiers et redoubtés
+<!--Les lignes ne devaient peut-être pas être encodées puisque notre support est un texte en prose, cependant, pour un choix stylistique, je voulais faire apparaître le changement de lignes dans mon encodage-->
+<persName>seigneurs</persName>, <persName>messeigneurs</persName> tenans les <term>requestes</term>
+<note type="editorial" place="margin">Les maîtres des requêtes du parlement de Paris (installé au palais de la Cité)
+formaient une chambre à part, qui recevait les requêtes des plaideurs et statuait sur la validité des causes et leur issue procédurale.
+Depuis une ordonnance de 1364, ils jugeaient aussi des causes de certains privilégiés, ce qui doit s'appliquer au cas présent. Les « requêtes du palais » ne sont pas à confondre avec les « requêtes de l'Hôtel », qui examinaient les suppliques présentées au roi.</note>
+<!--De même pour les notes éditoriales, je pense qu'il ne fallait pas obligatoirement les encoder, je voulais seulement m'entrainer à ajouter des notes de marges post-manuscrit.-->
+du <persName>roy nostre
+seigneur</persName> ou <placeName>palais royal a Paris</placeName>, commissaires en ceste partie, <persName>Denisot le Bourguignon</persName>,
+
+<lb n="2"/>sergent du <persName>roy nostre seigneur</persName> en son <placeName>Chastelet de Paris</placeName> et li vostres, honneur, service et reverence avecques toute obeïssance. Mes tres chiers <persName>seigneurs</persName>, plaise vous savoir que, par vertu
+
+<lb n="3"/>de certaines lettrez royaulx a moy adreciees, ausquelles ceste moye presente relacion est attachiee, qui se commenchent ainsi : 
+<cit>
+<quote><persName>Charles</persName>, par la grace de <name>Dieu</name> <persName>roy de France</persName></quote></cit>,
+
+<lb n="4"/>et fenissent : <cit><quote>Donnees a <placeName>Paris</placeName>, le <date>XIIIe jour de novembre, l’an de grace mil CCC LX treze</date></quote></cit>, et presentees par le <persName>tresorier, chanoines et chapitre de la saincte chapelle</persName>
+
+<lb n="5"/>du <placeName>palais royal a Paris</placeName> ou par leur <persName>procureur</persName> et a leur requeste, je, le <date>mardi XXIIe jour du mois de may, l’an mil CCC LXXV</date>, me transportay en la ville
+
+<lb n="6"/>de <term><placeName>Corbueil</placeName></term>
+<note type="editorial" place="margin">Corbeil (auj. Corbeil-Essonnes, Essonne, ch.-I. cant.) était le siège d'une châtellenie relevant de la vicomté de Paris, qui était soumise au prévôt de Paris, siégeant au Châtelet. Le Châtelet n'intervient ici que pour une action de police, l'affaire montant aussitöt au parlement.</note>, present avecques moy <persName>Jehan
+
+<lb n="7"/>de Mons, sergent de ladicte ville</persName>, en l’ostel et domicile de <persName>Vincent le Mire</persName>, a present mari de la <term>femme</term>
+<note type="editorial" place="margin">Noter que la femme est totalement transparente du point de vue
+anthroponymique.</note> qui fu feu <persName>Jehan de Grigny</persName>, tant en son nom comme a cause de sa femme et comme tuteurs, curateurs ou aians la garde des enfans de ladicte femme et dudit feu son mary,
+
+<lb n="8"/>a le personne de laquelle femme je fis commandement par vertu desdictez lettrez royaulx que ilz paient auxdis <persName>tresorier, chanoines et chapitre</persName> les arrierages
+
+<lb n="9"/>de la <term>rente</term>
+<note type="editorial" place="margin">Le mot "rente" (lat. redditus) peut désigner plus que notre actuelle
+"rente" : il peut certes s'agir d'une rente constituée sur la maison, mais aussi bien d'une redevance, par exemple d'un cens.</note> dont esdictez lettrez est faicte mencion, et doresenavant ladicte rente en la fourme et manere que contenu est esdictez lettrez royaulx, laquelle femme
+
+<lb n="10"/>me respondi que elle ne savoit que c’estoit. Et pour ce que sa response sentoit opposition, je adjournay ledit <persName>Vincent et sa femme</persName> esdis noms a la personne
+
+<lb n="11"/>d’icelle femme a estre et comparoir par devant vous au <date>mercredi aprés la feste <persName>saint Jehan Baptiste</persName> prochain</date> venant pour proceder sur ladicte opposition et respondre auxdis
+
+<lb n="12"/><persName>tresorier, chanoines et chapitre</persName> selon la fourme et teneur desdictez lettrez. Et ce, mes tres chiers <persName>seigneurs</persName>, je vous certefie avoir fait par ceste moye relacion,
+
+<lb n="13"/>seellee de mon seel duquel je use en mon office, l’an et le jour dessusdis.</p>
+
+      <fw corresp="cote_archive" place="left">S 952. N°2.</fw>
+      <fw corresp="sceau_lettre">ECOLE IMPERIALE DES CHARTES</fw>
+
+</div>
+</body>
+  </text>
+</TEI>
