@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="master">
+   
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Construction de corpus et connaissance des métadonnées</title>
+            <respStmt>
+               <resp>Encodage</resp>
+               <persName xml:id="ZR">Zoé Rochette</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher><orgName>Université de Rouen, Normandie</orgName></publisher>
+            <date>2026</date>
+            <availability status="restricted" n="cc-by">
+               <licence target="https://creativecommons.org/licenses/by/4.0"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Corpus constitué de huit versions de La Belle au Bois Dormant.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+        <langUsage>
+           <language ident="fra">Document en français</language>
+        </langUsage>
+      </profileDesc>
+      <revisionDesc>
+        <change status="corrected" when="2026-03-04" who="ZR"/>
+     </revisionDesc>
+  </teiHeader> 
+   
+  <text>
+      <body>
+         <p>Thème du corpus : <hi rend="italic">Les versions et adaptations en contenu abrégé ou retravaillé de La Belle au Bois Dormant</hi>. Ce thème est consacré aux différentes versions du conte de <hi rend="italic">La Belle au Bois Dormant</hi>, depuis le XVIIe siècle jusqu'à nos jours. Il présente la manière dont ce conte, à priori connu de tous, a pu être adapté et réécrit aux lecteurs du monde entier.</p>
+         
+         <p><hi rend="italic">Pourquoi ce thème ?</hi> Ce thème a été choisi car il met en lumière la manière dont un même récit peut évoluer au fil du temps et des contextes culturels. <hi rend="italic">La Belle au Bois Dormant</hi>, en tant que conte universellement connu, offre un terrain d’analyse particulièrement riche pour observer les transformations du langage, des valeurs morales et des représentations sociales selon les époques et les publics visés.</p>
+
+<p>Étudier ses adaptations permet également de réfléchir à la transmission des récits dans la culture populaire et à la façon dont les œuvres classiques se renouvellent pour demeurer accessibles aux lecteurs contemporains. Enfin, ce corpus permet de confronter différents types d’écritures (du texte littéraire original aux versions simplifiées ou modernisées) tout en analysant les procédés de réécriture, d’abréviation ou de transposition mis en œuvre.</p>
+
+<p><hi rend="italic">Les objectifs de ce corpus sont multiples.</hi> Il vise d’abord à mettre en évidence les variations textuelles et narratives entre les différentes versions de La Belle au Bois Dormant. Ces différences se manifestent particulièrement à travers les personnages, les dialogues et les lieux, qui varient selon les époques, les cultures et les intentions des auteurs ou éditeurs.</p>
+
+<p>L’encodage en XML-TEI permet de structurer ces éléments de manière homogène et d’en faciliter la comparaison.</p>
+<list>
+<item>Les noms des personnages ont été encodés afin d’analyser leurs transformations (changements d’appellation, apparition ou disparition de figures secondaires).</item>
+<item>Les prises de parole ont été identifiées pour mettre en valeur la répartition du discours, la place du dialogue et la voix donnée à chaque personnage.</item>
+<item>Les noms de lieux ont été balisés pour étudier la géographie du récit et son évolution selon les contextes de réécriture.</item>
+</list>
+
+<p>L’ensemble de ces encodages vise à offrir une base de données exploitable pour l’étude des dynamiques de transmission et d’adaptation du conte à travers le temps.</p>
+
+<p>Le corpus se compose de huit versions du conte de <hi rend="italic">La Belle au Bois Dormant</hi>, sélectionnées pour représenter la diversité des adaptations de cette histoire à travers les siècles, les genres et les supports. Cette sélection comprend aussi bien des textes littéraires que des productions audiovisuelles.</p>
+
+<p>Le corpus est classé chronologiquement, par date de publication des versions choisies. Ainsi, au XIXᵉ siècle, les frères Grimm livrent leur version, <hi rend="italic">Dornröschen</hi>, qui reprend la trame de Perrault tout en simplifiant le récit. La présence d’une grenouille prophétique dès l’ouverture ancre le conte dans la tradition populaire germanique et lui confère une atmosphère plus symbolique et morale.</p>
+
+<p>Vient ensuite <hi rend="italic">La Belle au bois dormant</hi> de Charles Perrault qui adoucit considérablement le récit et en offre une version plus morale et codifiée, conforme aux goûts de la cour de Louis XIV. C’est ce texte qui servira de base à la tradition française du conte et aux nombreuses réécritures ultérieures.</p>
+   
+<p><hi rend="italic">Le Soleil, la Lune et Thalie</hi> de Giambattista Basile, publié au XVIIᵉ siècle, constitue la plus ancienne version connue du conte. Cette première mouture, d’une tonalité baroque et souvent violente, met en scène la jeune Thalie, plongée dans un sommeil enchanté dont elle ne se réveille qu’après un épisode tragique.</p>
+
+<p>Des décennies plus tard, Madame d’Aulnoy propose <hi rend="italic">La Biche au Bois</hi>, où elle revisite le motif de la princesse endormie à travers une intrigue plus riche en enchantements et en métamorphoses, mettant en avant l’élégance du style et la place des héroïnes dans le merveilleux féminin du XVIIᵉ siècle.</p>
+         
+         <cit>
+            <quote>[…] la princesse s’est transformée, d’un conte à l’autre, en une jeune femme indépendante,
+               agressive, ironique, voire désabusée quant à l’avenir que lui réserverait
+               l’amour.</quote>
+            <bibl>M. Stasinopoulo, « Que sont les contes devenus ? / Blanche-Neige et la Belle au Bois Dormant.</bibl>
+         </cit>
+
+<p>La version abrégée proposée par Gabriel Grossi reprend le texte de Perrault dans une perspective pédagogique, simplifiant le langage et la structure pour le rendre accessible aux enfants et aux apprenants du français.</p>
+
+<p>Au XXᵉ siècle, Disney s’inspire largement de Perrault et des Grimm pour produire le célèbre film d’animation <hi rend="italic">La Belle au Bois Dormant</hi> (1959), où la princesse Aurore et ses trois marraines fées deviennent les figures emblématiques d’un conte idéalisé, esthétiquement soigné et porté par la musique et l’image.</p>
+
+<p>Dans une veine plus contemporaine, la chanson "Dors mon petit ange" de Dorothée modernise à sa manière la thématique du sommeil enchanteur et du rêve, en en faisant un motif poétique et protecteur plutôt qu’un enjeu narratif.</p>
+
+<p>À côté de ces œuvres bien connues, une vidéo YouTube allemande intitulée "Dornröschen Kinder Geschichte" propose une adaptation simplifiée et audiovisuelle du conte, destinée aux jeunes enfants, qui témoigne de la grande popularité persistante de ce récit dans les médias numériques.</p>
+
+<p>Ces huit versions (littéraires, musicales et audiovisuelles) retracent ainsi la trajectoire séculaire du conte, depuis ses origines baroques jusqu’à ses réécritures contemporaines, tout en illustrant la richesse et la plasticité du mythe de la Belle endormie.</p>
+
+<p><cit>
+<quote>Sensible à ces multiples effets de métamorphose, le conte de La Belle au bois dormant, comme tout récit issu de la culture orale, est soumis à l’empire de la variation, du point de vue diégétique (le scénario de base fluctue d’avatar en avatar) et stylistique (pour les versions écrites), mais surtout idéologique (la morale globale diffère). En fonction des sources et des versions, le conte de <hi rend="italic">La Belle au bois dormant</hi> ne revêt pas forcément les mêmes significations ni ne recouvre les mêmes enjeux moraux et didactiques.</quote>
+<bibl>A. Bellemare, "Charles Perrault, cinématographe. Reprise, continuation et démontage de La Belle au bois dormant au cinéma"</bibl>
+</cit></p>
+
+<p>Le choix de ces variations permet d’observer comment un même schéma narratif, celui d’une jeune fille endormie et d’un réveil symbolique, a été interprété différemment selon les contextes sociaux, moraux et esthétiques. Ce corpus met en évidence la plasticité du conte et la manière dont chaque époque reformule ses valeurs et ses représentations du féminin, du destin et du merveilleux.</p>
+
+<p>Bibliographie et recherches complémentaires :</p>
+<p><list>
+<item>Alex Bellemare, « Charles Perrault, cinématographe. Reprise, continuation et démontage de La Belle au bois dormant au cinéma », <hi rend="italic">Féeries</hi> [En ligne], 18 | 2022, mis en ligne le 15 décembre 2022, consulté le 31 mars 2026. <ref target="http://journals.openedition.org/feeries/4528">lien</ref></item>
+<item>Rigolot François. "Les songes du savoir : de la Belle endormie à la Belle au bois dormant". In: <hi rend="italic">Littérature, n°58, 1985. Le savoir de l'écrit</hi>. pp. 91-106.</item>
+<item>Stasinopoulou, Maria. « Que sont les contes devenus ? / Blanche-Neige et la Belle au Bois Dormant. » Jeu, numéro 142 (1), 2012, p. 25–27.</item>
+<item>Philippe Walter, <hi rend="italic">Ma mère l’Oie. Mythologie et folklore dans les contes de fées</hi>, Paris, Imago, 2017.</item>
+</list>
+</p>
+ 
+      </body>
+  </text>
+   <xi:include href="grimm.xml"/>
+   <xi:include href="perrault.xml"/>
+   <xi:include href="giambattista.xml"/>
+   <xi:include href="daulnoy.xml"/>
+   <xi:include href="perrault_abrege.xml"/>
+   <xi:include href="disney.xml"/>
+   <xi:include href="dorothee.xml"/>
+   <xi:include href="allemagne.xml"/>
+</TEI>
