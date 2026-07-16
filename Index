@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Approche de l'outil numérique</title>
+  
+<link rel="stylesheet" type="text/css" href="lupin.css">
+</head>
+
+<body>
+<header>
+    <h1>Approche de l'outil numérique M1</h1>
+</header>
+
+
+<main>
+	<p>Session de janvier 2026</p>
+	<p><span id="zoe">Zoé ROCHETTE</span></p>
+	<p>N° étudiant : 22214892</p>
+
+    <article>
+        <h2>Mon travail final</h2>
+		<a href ="musee.html"><span id="consigne">Découvrez le Musée Maurice Leblanc, créateur d'Arsène Lupin.</span></a>
+      </article>
+
+
+</main>
+<footer>
+	<p>Travail réalisé en deux heures</p>
+</footer>
+</body>
+</html>
