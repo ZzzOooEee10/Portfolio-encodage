@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>TEI Header minimal à ignorer</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Info</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+
+            <div xml:id="liberII_PASQ" resp="#RochetteZoe">
+
+<div xml:id="PASQ_2.1" ana="#sensus" resp="#PASQ">
+<p><ref target="#n2.69.2">Velin.]</ref> 
+Paria sunt, iussa abolere, <choice>
+<orig>&amp;</orig>
+<reg>et</reg>
+</choice> ea in contrarium uertere : hoc est, uerba legis retinere quidem, sed sententiam
+eius peruertere.
+</p></div>
+
+<div xml:id="PASQ_2.2" ana="#moralia" resp="#PASQ">
+<p><ref target="#n2.69.3">Hinc.]</ref>
+Grauissimam offensionis, <choice>
+<orig>&amp;</orig>
+<reg>et</reg>
+</choice> indignationis causam habet princeps atque amplissimus quisque homo
+aduersus eum, a quo sua iussa atque instituta abolita, uelin contrarium uersa esse cognoscit.
+</p></div>
+
+<div xml:id="PASQ_2.3" ana="#religio" resp="#PASQ"> 
+<p><ref target="#n2.69.6">Votaque.]</ref>
+Nunquam committendum est, quo minus uota publice, ut aliquid
+consequeremur, suscepta id simulatque adepti sumus, soluantur. quippe nulla re tam
+offenditur Deus, quam ingrati animi uitio.
+</p></div>
+
+<div xml:id="PASQ_2.4" ana="#politica #iura #realia" resp="#PASQ"> 
+<p><ref target="#n2.69.8">Per lictores.]</ref>
+O nequam homines, qui magistratu, <choice>
+<orig>&amp;</orig>
+<reg>et</reg>
+</choice> insigniis magistratus abutuntur ad priuata studia, atque ad malas libidines. 
+</p></div>
+
+<div xml:id="PASQ_2.5" ana="#moralia" resp="#PASQ"> 
+<p><ref target="#n2.69.8">Proturbat.]</ref>
+Qui aliquem odit, huic haud dubie stomachu faciunt quaecunq. in illius
+honorem sieri uidet.
+</p></div>
+
+<div xml:id="PASQ_2.6" ana="#sensus" resp="#PASQ"> 
+<p><ref target="#n2.69.10">Persuasio.)</ref>
+Saeuam per se uim morbi haud dubie auget persuasio aegroti. 
+</p></div>
+
+<div xml:id="PASQ_2.7" ana="#religio" resp="#PASQ"> 
+<p><ref target="#n2.69.14">Maleficia.)</ref>
+Maleficia ea proprie dicuntur incantamenta, quae traduntur falsis, ac
+superstitiosis disciplinis: uersanturque in eruendis humanorum corporum reliquiis,
+carminibus, <choice>
+<orig>&amp;</orig>
+<reg>et</reg>
+</choice> deuotionibus, sculptura nominis illius, qui huiusmodi artibus petitur,
+semiustis cineribus, ac tabe oblitis. his porro maleficiis uulgus superstitiosorum credit,
+anims eorum aqui uiuunt infernis numinibus sacrati, hoc est, morti destinari.
+</p></div>
+
+<div xml:id="PASQ_2.8" ana="#sensus" resp="#PASQ"> 
+<p><ref target="#n2.69.16">Rimantes. Ea Germanico haud minus ira, quam per.)</ref>
+Cum de principis, aut magni
+alicuius uiri morbo agitur, is suspicione non caret, qui ualetudinis aduersa rimatur. 
+</p></div>
+
+<div xml:id="PASQ_2.9" ana="#moralia" resp="#PASQ"> 
+<p><ref target="#n2.70.2">Si limen obsideretur.)</ref>
+Vel ipsam mortem, quamuis fraude inimici nobis obtigerit, forte
+aequo animo ferre possumus: sed sub eius oculis effundere spiritum, hoc demum illud
+est, quod quia grauissimum est, nulla aequitas animi ferre potest.  
+</p></div>
+
+<div xml:id="PASQ_2.10" ana="#moralia" resp="#PASQ"> 
+<p><ref target="#n2.70.3">Quid deinde miserrimae coniugi, quid infantibus liberis
+euenturum.)</ref>
+Non mirum est, uiduas <choice>
+<orig>&amp;</orig>
+<reg>et</reg>
+</choice> pupillos proteri, cum maximi uiri, ac ferocissimarum
+</p>
+
+<fw type="runningTitle" place="top">Axiomata Politica</fw>
+<pb n="665"/>
+<fw type="pageNumb" place="top right">665</fw>
+
+<p>gentium uictores iis
+etiam casibus conflictentur, qui maximi sunt, <choice>
+<orig>&amp;</orig>
+<reg>et</reg>
+</choice> grauissimi. 
+</p></div>
+
+<div xml:id="PASQ_2.11" ana="#moralia #sensus" resp="#PASQ"> 
+<p><ref target="#n2.70.4">Lenta Videri.]</ref>
+Qui scelus admittit, huic nihil fatis festinari potest quippe ea etiam, quibus
+utitur ad perpetrandum facinus, uidentur esse lenta. 
+</p></div>
+
+<div xml:id="PASQ_2.12" ana="#iura" resp="#PASQ"> 
+<p><ref target="#n2.70.6">Neque praemia.)</ref>
+Quid iniquius, minusque ferendum dici potest, quam praemia fraudu
+lentissime caedis apud interfectorem manere ?
+</p></div>
+
+<div xml:id="PASQ_2.13" ana="#iura" resp="#PASQ"> 
+<p><ref target="#n2.70.8">Amicitiam ei.)</ref>
+Qui atrocissimo scelere amicitiae iura prior uiolauit, hic non modo in
+amicorum numero postea non habendus est, quinimo ad quem ea res per tinet, ei
+amicitiam per epistolam renunciare debet.
+</p></div>
+      </div>
+      </body>
+  </text>
+</TEI>
