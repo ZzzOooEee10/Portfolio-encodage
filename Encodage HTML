@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Musée Maurice Leblanc</title>
+<link rel="stylesheet" type="text/css" href="lupin.css">	
+</head>
+
+<body>
+<header><h1><span id="titre1">Musée Maurice Leblanc</span></h1>
+<p class id="para">Notre musée Maurice Leblanc se situe à Etretat, ville de Normandie.<br><strong><span id="adresse">Adresse : 3. Avenue Damilaville, 76790, Etretat.</span></strong></p>
+<br>
+<p>Horaires :</p>
+<ul><li>Du lundi au vendredi : 9h-18h</li>
+<li>Le samedi : 11h-18h</li>
+<li>Le dimanche : 11h-14h</li></ul>
+<p>Tarifs :</p>
+<ul><li>Pour les enfants -14ans : gratuit</li>
+<li>18-26ans : 5€</li>
+<li>Adultes : 10€</li>
+<li>Séniors (+60ans) : gratuit</ul>
+<br>
+<a href="tel:+0232456578"><span id="contact">Pour nous contacter</span></a>
+</header>
+
+<main>
+<p>Découvrez le personnage d'Arsène Lupin, créé par le célèbre Maurice Leblanc.</p>
+<br>
+<p>Qui est l'écrivain qui se cache derrière cette plume ?</p>
+<a href ="maurice.html"><span id="consigne">Cliquez ici !</span></a>
+<br>
+<p>Qui est donc le voleur mystère ?</p>
+<a href ="voleur.html"><span id="consigne">Cliquez ici !</span></a>
+<br>
+<p>L'héritage livresque</p>
+<a href ="heritage.html"><span id="consigne">Cliquez ici !</span></a>
+
+<br>
+<br>
+<hr>
+
+<h2>Pour aller plus loin</h2>
+</p>
+<article id="flexbox">
+<section id="un">
+<h3><cite>Arsène Lupin, l'art de la métamorphose</cite></h3>
+<figure><p><a href="https://www.radiofrance.fr/franceculture/podcasts/les-nuits-de-france-culture/surpris-par-la-nuit-dans-la-cour-d-arsene-lupin-1ere-diffusion-14-05-2002-4385878">
+<img id="photolivres"src="https://www.radiofrance.fr/pikapi/images/794b9aeb-2294-4663-9d4e-8c087cdafdc4/1200x680?webp=false" alt="arsène"></a>
+<strong><u>France Culture </u></strong> : en 2002, pour l’émission « Surpris par la nuit », Alain Veinstein nous invitait à partir sur les traces du personnage d’Arsène Lupin, créé par l’écrivain Maurice Leblanc en 1905. Il donnait la parole, entre autres, à l’écrivain québécois Pierre Billon, au maquilleur, costumier et acteur Dominique Colladant, aux écrivains François George et Bernard Thomas. La figure du gentleman cambrioleur recouvre, par essence, une variété infinie de visages et de métamorphoses. L’extraordinaire aptitude à se transformer d’Arsène Lupin est un défi qui interpelle beaucoup d’acteurs. Le personnage créé par Maurice Leblanc est connu dans le monde entier, et a suscité nombre de films, séries et même dessins animés – le Japon lui a consacré plusieurs mangas. Chacun peut se reconnaître dans Arsène Lupin, qui « parle » particulièrement aux Québécois.</p></figure>
+</section>
+
+<section id="deux">
+<h3><cite>Pourquoi Arsène Lupin est une superstar au Japon</cite></h3>
+<figure><p><a href="https://www.rtl.fr/culture/culture-generale/pourquoi-arsene-lupin-est-une-superstar-au-japon-7900305354">
+<img id="photolivres"src="https://images.rtl.fr/~c/2000v2000/rtl/www/1620001-arsene-lupin.jpg" alt="lupin"></a>
+<strong><u>RTL </u></strong> : hier, mardi 3 octobre, sortait la saison 3 de Lupin, la série Netflix avec Omar Sy. Ce jeudi matin, RTL vous propose de découvrir sur les raisons de la célébrité du personnage au Japon. Un engouement qui n'est pas dû à la série, mais bien au célèbre voleur créé par Maurice Leblanc en 1905. Arsène Lupin, dont les aventures sont dès le début un tel succès qu’en 1909, l’aventure de Lupin, La Perle Noire, est publiée dans un journal japonais. Mais elle n'est pas signée Maurice Leblanc. </p>
+<br><p>Antigone, dans l’aube encore noire, revient d’un acte interdit. Elle a bravé l’édit. Elle a recouvert de terre le corps de son frère. Pas pour la gloire. Pas pour défier. Mais parce qu’elle le devait. Parce que son frère, quel qu’il soit, mérite le repos. Elle rentre chez elle pieds nus, les mains sales de nuit, les yeux pleins d’une résolution qu’elle seule comprend. </p></figure>
+</section>
+
+<section id="trois">
+<h3><cite>Edition du Gentleman cambrioleur</cite>de Maurice Leblanc</h3>
+<figure><p><a href="https://www.livrenpoche.com/products/livre-arsene-lupin-gentleman-cambrioleur-2?srsltid=AfmBOopfp5rRijyxqcFUSp7ygW52x-o0An_L50xNAxs0MsJsV_ZULc1c">
+<img id="photolivres" src="https://www.livrenpoche.com/cdn/shop/files/0013759-1.jpg?v=1742429245" alt="bouquin"></a>
+<strong><u>Livre de poche </u></strong> : vif, audacieux, impertinent, rossant sans arrêt le commissaire (qui ici, en l'occurrence, s'appelle l'inspecteur Ganimard), tramant les coeurs après lui et mettant les rieurs de son côté, se moquant des situations acquises, ridiculisant les bourgeois, portant secours aux faibles, Arsène Lupin, gentleman cambrioleur est un Robin des Bois de la «Belle Époque ». Un Robin des Bois bien français : il ne se prend pas trop au sérieux, ses armes les plus meurtrières sont les traits d'esprit ; ce n'est pas un aristocrate qui vit comme un anarchiste mais un anarchiste qui vit comme un aristocrate.
+Arsène Lupin, après plus d'un demi-siècle, n'a pas vieilli. Il ne vieillira jamais en dépit de son chapeau haut de forme, de sa cape et de son monocle.</p></figure>
+</section>
+</article>
+
+
+</main>
+<footer>
+	<a href="index.html"><span id="consigne">Revenir à l'index</span></a>
+<br>
+	<p>Et vous ? Seriez-vous un bon Lupin ?</p>
+</footer>
+</body>
+</html>
